@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(50, 168, 82);
+}
+#h{
+    padding-bottom: 30px;
+    color: white;
+}
+#user{
+    width: 200px;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(50, 168, 82);
+}
+#rest{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(50, 168, 82);
+    text-transform: uppercase;
+    border: none;
+}
+#sname{
+    margin: 15px 0;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: rgb(50, 168, 82);
+
+}
+#sresult{
+    text-transform: capitalize;
+    color: white;
+
+}
